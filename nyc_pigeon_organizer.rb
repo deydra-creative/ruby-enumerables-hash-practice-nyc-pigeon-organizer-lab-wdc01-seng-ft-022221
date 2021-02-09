@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
         
         new_array[name][key].push(inner_key.to_s)
       end
+    end
     
     new_array
   end
